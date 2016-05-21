@@ -293,3 +293,41 @@ li {
 	color: rgba(0,0,0,.4);
 	font-weight: bold;
 }
+.emailmailchimp {
+            margin-top: 40px;
+        }
+        .emailmailchimp input {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            padding: 12px 20px;
+            border: 1px solid rgba(30,32,37,.23);
+            line-height: 1.25;
+            font-size: 1rem;
+            outline: none;
+            display: inline-block;
+        }
+        .emailmailchimp .submit {
+            display: inline-block;
+            margin-left: 8px;
+        }
+        .submit input {
+            background-color: #BBDBD8;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+        .submit input:hover {
+            background: #ACC3C1;
+        }
+@media (max-width: 400px) {
+  input {
+    width: 100%;
+    text-align: left;
+  }
+  .emailmailchimp .submit {
+    display: block;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+}
