@@ -163,22 +163,14 @@ h1 a {
 .submit {
 	position: relative;
 	display: inline-block;
+	background: white;
+}
+.emailmailchimp {
+	background: white;
+	border-radius: 4px;
 	margin-top: 20px;
-}
-.submit:before {
-    content: "";
-    position: absolute;
-    background: white;
-    left: -20px;
-    top: -20px;
-    width: calc(100% + 80px);
-    height: calc(100% + 40px);
-    border-radius: 4px;
-    opacity: 1;
-    transition: all .3s ease-in-out;
-}
-.submit:hover:before {
-    opacity: 1;
+	display: inline-block;
+	padding: 20px 46px 20px 20px;
 }
 .submit:after {
     content: "";
@@ -188,7 +180,7 @@ h1 a {
     background-position: center;
     background-size: 100% right;
     top: 0;
-    right: -38px;
+    right: -33px;
     width: 30px;
     height: 100%;
   -webkit-animation: slide 1.5s linear infinite;
@@ -405,6 +397,16 @@ li {
 
 	.button-holder {
 		padding: 4% 0 0;
+	}
+	.emailmailchimp {
+		padding: 10px 32px 10px 10px;
+	}
+	.emailmailchimp .cta {
+		font-size: 12px
+	}
+	.submit:after {
+		background-size: 10px;
+		right: -27px;
 	}
 }
 .descriptor {
