@@ -402,10 +402,10 @@ li {
 		padding: 10px 32px 10px 10px;
 	}
 	.emailmailchimp .cta {
-		font-size: 12px
+		font-size: 14px
 	}
 	.submit:after {
-		background-size: 10px;
+		background-size: 12px;
 		right: -27px;
 	}
 }
