@@ -163,6 +163,7 @@ h1 a {
 .submit {
 	position: relative;
 	display: inline-block;
+	margin-top: 20px;
 }
 .submit:before {
     content: "";
@@ -173,7 +174,7 @@ h1 a {
     width: calc(100% + 80px);
     height: calc(100% + 40px);
     border-radius: 4px;
-    opacity: 0;
+    opacity: 1;
     transition: all .3s ease-in-out;
 }
 .submit:hover:before {
